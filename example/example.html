@@ -25,12 +25,13 @@
                 
                 <!-- Autoloads the modal body when show -->
                 <div class="modal-body"
-                    data-load="/modals/body.html"
-                    data-events='"show"'
+                    data-load="./modals/body.html"
+                    data-events='[{"id": "#myModal", "event": "show"}]'
                 >
                     <i class='fa fa-2x fa-spin fa-spinner'></i>
                     <div class='alert alert-danger on-error'>
-                        <p>Error</p>
+                        <h3>Error <i class="fa fa-thumbs-down"></i></h3>
+                        <p>Please see your console.</p>
                     </div>
                 </div>
                 
@@ -44,7 +45,7 @@
     
     <!-- Required scripts -->
     <script src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
-    <script src='http://rawgithub.com/lcnvdl/autoload/master/lib/autoload.js'></script>
+    <script src='../lib/autoload.js'></script>
     
     <!-- For the example -->
     <script src='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js'></script>
