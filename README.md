@@ -14,5 +14,5 @@ Include autoload.js
 ### Second step
 
 ```
-<div data-load='page.html' data-events='"now"'></div>
+<div data-load='page.html' data-events='now'></div>
 ```
